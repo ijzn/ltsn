@@ -1,0 +1,19 @@
+{
+  "name": "node_lts",
+  "version": "1.0.0",
+  "description": "Node LTS的版本查看工具",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ijzn/ltsn.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ijzn/ltsn/issues"
+  },
+  "homepage": "https://github.com/ijzn/ltsn#readme"
+}
