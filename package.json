@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "Node LTS的版本查看工具",
   "main": "index.js",
+  "bin": {
+    "ltsn": "bin/ltsn"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -15,5 +18,13 @@
   "bugs": {
     "url": "https://github.com/ijzn/ltsn/issues"
   },
-  "homepage": "https://github.com/ijzn/ltsn#readme"
+  "homepage": "https://github.com/ijzn/ltsn#readme",
+  "devDependencies": {
+    "axios": "^0.19.2",
+    "compare-version": "^0.1.2"
+  },
+  "dependencies": {
+    "cli-color": "^2.0.0",
+    "cli-table": "^0.3.1"
+  }
 }
